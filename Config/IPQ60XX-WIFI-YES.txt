@@ -30,4 +30,3 @@ CONFIG_PACKAGE_htop=y
 
 # 主题（需要 Argon 时加上）
 CONFIG_PACKAGE_luci-theme-argon=y
-CONFIG_PACKAGE_luci-app-argon-config=y
