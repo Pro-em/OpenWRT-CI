@@ -61,7 +61,8 @@ UPDATE_PACKAGE "openclash" "vernesong/OpenClash" "dev" "pkg"
 UPDATE_PACKAGE "passwall" "Openwrt-Passwall/openwrt-passwall" "main" "pkg"
 UPDATE_PACKAGE "passwall2" "Openwrt-Passwall/openwrt-passwall2" "main" "pkg"
 UPDATE_PACKAGE "vmlinux-btf" "kenzok8/vmlinux-btf" "main"
-UPDATE_PACKAGE "daed" "corevie/luci-app-daed" "main"
+UPDATE_PACKAGE "honk" "QiuSimons/luci-app-honk" "master"
+
 
 UPDATE_PACKAGE "diskmanager" "4IceG/luci-app-mini-diskmanager" "main"
 UPDATE_PACKAGE "easytier" "EasyTier/luci-app-easytier" "main"
