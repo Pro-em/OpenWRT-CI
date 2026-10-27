@@ -8,6 +8,9 @@ CONFIG_TARGET_DEVICE_qualcommax_ipq60xx_DEVICE_jdcloud_re-ss-01=y
 #BPF 流量控制（kmod-sched-core 由默认包 tc-tiny 带入，无需显式添加）
 CONFIG_PACKAGE_kmod-sched-bpf=y
 
+#外置内核 BTF（内核镜像不含 BTF 时给 dae/daed 用）
+CONFIG_PACKAGE_vmlinux-btf=y
+
 #zram
 CONFIG_PACKAGE_kmod-zram=y
 CONFIG_PACKAGE_zram-swap=y
