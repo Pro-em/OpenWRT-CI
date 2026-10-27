@@ -31,10 +31,6 @@ echo "CONFIG_LUCI_LANG_zh_Hans=y" >> ./.config
 echo "CONFIG_PACKAGE_luci-theme-$WRT_THEME=y" >> ./.config
 echo "CONFIG_PACKAGE_luci-app-$WRT_THEME-config=y" >> ./.config
 
-#内核 BTF（dae/honk 的 eBPF CO-RE 依赖）
-echo "CONFIG_KERNEL_DEBUG_INFO=y" >> ./.config
-echo "CONFIG_KERNEL_DEBUG_INFO_BTF=y" >> ./.config
-echo "CONFIG_KERNEL_DEBUG_INFO_REDUCED=n" >> ./.config
 
 #引入私有扩展配置
 if [ -f "$GITHUB_WORKSPACE/Config/PRIVATE.txt" ]; then
